@@ -76,6 +76,70 @@ body{
     font-size: 1.2rem;
 }
 
+/* Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .hero {
+        margin-top: 5px;
+        padding: 10px;
+    }
+    
+    .profile-pic {
+        height: 0;
+        margin: 0 auto;
+        visibility: hidden;
+    }
+    
+    .lead {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .gradient {
+        padding-top: 5px;
+    }
+}
+
+/* Medium devices (tablets, 600px to 992px) */
+@media (min-width: 600px) and (max-width: 992px) {
+    .hero {
+        margin-top: 10px;
+    }
+    
+    .profile-pic {
+        height: 0;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    .gradient {
+        padding-top: 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hero {
+        margin-top: 10px;
+        padding: 20px;
+    }
+    
+    .profile-pic {
+        height: 500px;
+    }
+    
+    .lead {
+        font-size: 1.2rem;
+    }
+    
+    .gradient {
+        padding-top: 10px;
+    }
+}
+
+
 
 @keyframes gradient-animation {
     0% {
